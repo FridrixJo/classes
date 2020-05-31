@@ -1,0 +1,120 @@
+body{
+    background-color: #fff;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    float: left;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+}
+
+.card:nth-child(3){
+    float: right;
+}
+
+.card:nth-child(2){
+    margin-left: 125px;
+}
+
+.img{
+    width: 350px;
+    height: 200px;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
+
+.title{
+    width: 350px;
+    height: 40px;
+    text-align: left;
+}
+
+p{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text{
+    width: 350px;
+    height: 100px;
+    position: relative;
+    bottom: 20px;
+}
+
+h4{
+    padding: 0 20px 0 20px;
+    color: rgba(0,0,0,0.7);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+hr{
+    position: relative;
+    top: 35px;
+}
+
+.cost{
+    width: 175px;
+    height: 60px;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+span{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-left: 20px;
+    color : rgba(0,0,0,1);
+    position: relative;
+    right: 5px;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+    color: rgba(0,0,0,0.7);
+}
+
+#cost{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.7);
+    padding-top: 40px;
+}
+
+#num{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.7);
+    position: relative;
+    left: 150px;
+    bottom: 45px;
+}
+
+.hide{
+    display: none;
+}
